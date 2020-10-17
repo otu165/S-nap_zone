@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 평상시 -->
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="#FFF" />
+            <corners android:radius="10dp" />
+            <stroke android:color="#6b70b3" android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- 선택 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FFF" />
+            <corners android:radius="10dp" />
+            <stroke android:color="#3f4269" android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- 비활성화 -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#f7f6f6" />
+            <corners android:radius="10dp"/>
+            <stroke android:color="#90999e" android:width = "2dp" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/message"
+        android:title="불만접수"
+        android:icon="@drawable/icon_message"
+        app:showAsAction="always"/>
+    <item
+        android:id = "@+id/setting"
+        android:title="관리자메뉴"
+        app:showAsAction="never"/>
+</menu>

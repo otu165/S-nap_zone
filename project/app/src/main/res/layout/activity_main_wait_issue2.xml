@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="발급할 좌석을 선택해주세요" />
+
+        <TextView
+            android:id="@+id/notice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="(화면 외부 터치시 취소됩니다)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Iss_A1"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/button_background"
+            android:onClick="onClick"
+            android:text="A-1" />
+
+        <Button
+            android:id="@+id/Iss_A2"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-2" />
+
+        <Button
+            android:id="@+id/Iss_A3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-3" />
+
+        <Button
+            android:id="@+id/Iss_A4"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-4" />
+
+        <Button
+            android:id="@+id/Iss_A5"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-5" />
+
+        <Button
+            android:id="@+id/Iss_A6"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Iss_A7"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/button_background"
+            android:onClick="onClick"
+            android:text="A-7" />
+
+        <Button
+            android:id="@+id/Iss_A8"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-8" />
+
+        <Button
+            android:id="@+id/Iss_A9"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-9" />
+
+        <Button
+            android:id="@+id/Iss_A10"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-10" />
+
+        <Button
+            android:id="@+id/Iss_A11"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-11" />
+
+        <Button
+            android:id="@+id/Iss_A12"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="A-12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Iss_B1"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/button_background"
+            android:onClick="onClick"
+            android:text="B-1" />
+
+        <Button
+            android:id="@+id/Iss_B2"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-2" />
+
+        <Button
+            android:id="@+id/Iss_B3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-3" />
+
+        <Button
+            android:id="@+id/Iss_B4"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-4" />
+
+        <Button
+            android:id="@+id/Iss_B5"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-5" />
+
+        <Button
+            android:id="@+id/Iss_B6"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Iss_B7"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/button_background"
+            android:onClick="onClick"
+            android:text="B-7" />
+
+        <Button
+            android:id="@+id/Iss_B8"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-8" />
+
+        <Button
+            android:id="@+id/Iss_B9"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-9" />
+
+        <Button
+            android:id="@+id/Iss_B10"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-10" />
+
+        <Button
+            android:id="@+id/Iss_B11"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-11" />
+
+        <Button
+            android:id="@+id/Iss_B12"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="B-12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Iss_C1"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/button_background"
+            android:onClick="onClick"
+            android:text="C-1" />
+
+        <Button
+            android:id="@+id/Iss_C2"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-2" />
+
+        <Button
+            android:id="@+id/Iss_C3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-3" />
+
+        <Button
+            android:id="@+id/Iss_C4"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-4" />
+
+        <Button
+            android:id="@+id/Iss_C5"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-5" />
+
+        <Button
+            android:id="@+id/Iss_C6"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Iss_C7"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/button_background"
+            android:onClick="onClick"
+            android:text="C-7" />
+
+        <Button
+            android:id="@+id/Iss_C8"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-8" />
+
+        <Button
+            android:id="@+id/Iss_C9"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-9" />
+
+        <Button
+            android:id="@+id/Iss_C10"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-10" />
+
+        <Button
+            android:id="@+id/Iss_C11"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:background="@drawable/button_background"
+            android:text="C-11" />
+
+        <Button
+            android:id="@+id/Iss_C12"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:onClick="onClick"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_background"
+            android:text="C-12" />
+    </LinearLayout>
+
+
+</LinearLayout>
