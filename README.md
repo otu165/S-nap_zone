@@ -119,5 +119,5 @@
 <br />
 
 # Contributor
-- 윤주연(https://www.github.com/otu165)
+- [윤주연](https://www.github.com/otu165)
 - 김수빈
