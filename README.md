@@ -10,19 +10,23 @@
 이에 수면실 사용에 편의성을 가져다주고, 불만 사항을 해결할 수 있는 수면실 어플리케이션을 고안하게 되었습니다.
 
 <br />
+
 # 개발 기간
 2019.08.05 ~ 2019.08.23
 
 <br />
+
 # 개발 환경
 
  - Android Studio 3.5.1
  - SQLite
  
 <br />
+
 # Screen Shot
 
 <br />
+
 ### 1. 잔여석이 있는 경우
 <div>
 <img src="https://user-images.githubusercontent.com/55652161/97111165-9ae4a480-1720-11eb-9b6a-2a89c82994e7.png" width="300">
@@ -30,6 +34,7 @@
 
  - 좌석을 발급받을 수 있는 화면
  <br />
+ 
 <div>
 <img src="https://user-images.githubusercontent.com/55652161/97111477-4f32fa80-1722-11eb-9117-6c737272f94a.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/55652161/97111279-54dc1080-1721-11eb-8f16-d930af2e7db8.png" width="300">
@@ -49,6 +54,7 @@
 
 
 <br />
+
 ### 2. 잔여석이 없는 경우
 <div>
 <img src="https://user-images.githubusercontent.com/55652161/97111166-a041ef00-1720-11eb-8574-cf502444fdc1.png" width="300">
@@ -56,6 +62,7 @@
 
 - 대기 번호를 발급받을 수 있는 화면
 <br />
+
 <div>
 <img src="https://user-images.githubusercontent.com/55652161/97111597-19424600-1723-11eb-81da-4135a0304346.png" width="300">
 <img src="https://user-images.githubusercontent.com/55652161/97111600-1c3d3680-1723-11eb-8014-613691d56880.png" width="300">
@@ -64,6 +71,7 @@
 - 전화번호로 대기번호를 발급
 - 대기번호에 해당하는 대기시간을 부여함
 <br />
+
 <div>
 <img src="https://user-images.githubusercontent.com/55652161/97111615-2c551600-1723-11eb-8a40-d4d0c8698241.png" width="300">
 </div>
